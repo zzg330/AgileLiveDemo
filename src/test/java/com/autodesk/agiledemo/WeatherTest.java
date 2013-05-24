@@ -10,7 +10,7 @@ public class WeatherTest extends JBehaveStories {
 	@Given("I am on the weather page")
 	public void givenIAmOnTheWeatherPage() {
 		pages.weather().open();
-	}
+	} 
 
 	@When("I type in a zipcode $zip")
 	public void whenITypeInAZipcode(String zip) {
